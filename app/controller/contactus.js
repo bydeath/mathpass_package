@@ -39,7 +39,7 @@ Ext.define('MathPASS.controller.contactus',{
                 message:'Signing In...'
             });
             Ext.Ajax.request({
-                url:'http://wme.lzu.edu.cn/MathPASS_YWC/sendemail.php',
+                url:'http://202.201.13.85/mathpass/sendemail.php',
                 params:{
                     email:youremailValue,
                     name:yournameValue,

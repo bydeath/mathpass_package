@@ -8,7 +8,7 @@ autoLoad:true,
 autoDestroy:true,
 proxy:{
     type:'ajax',
-url:'http://wme.lzu.edu.cn/MathPASS_YWC/course.php',
+url:'http://202.201.13.85/mathpass/course.php',
 reader:{
     type:'json'
 }

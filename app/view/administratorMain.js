@@ -38,21 +38,21 @@ Ext.define('MathPASS.view.administratorMain', {
         },
         items: [
             {
-                title: '<a href="http://wme.lzu.edu.cn/MathPASS_YWC/users/index.html">Users</a>',
+                title: '<a href="http://202.201.13.85/mathpass/users/index.html">Users</a>',
                 iconCls:'team',
                 xtype:'administratorUsersview',
                 styleHtmlContent: true,
                 scrollable: true
             },
             {
-                title: '<a href="http://wme.lzu.edu.cn/MathPASS_YWC/problems/index.html">Problems</a>',
+                title: '<a href="http://202.201.13.85/mathpass/problems/index.html">Problems</a>',
                 iconCls:'home',
                 xtype:'administratorProblemsview',
                 styleHtmlContent: true,
                 scrollable: true
             },
             {
-                title: '<a href="http://wme.lzu.edu.cn/MathPASS_YWC/itemanalysis/index.html">ItemAnalysis</a>',
+                title: '<a href="http://202.201.13.85/mathpass/itemanalysis/index.html">ItemAnalysis</a>',
                 iconCls:'home',
                 xtype:'administratorItAnalyview',
                 styleHtmlContent: true,

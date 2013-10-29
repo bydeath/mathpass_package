@@ -15,7 +15,7 @@ Ext.define('MathPASS.view.homepage',{
                   xtype: 'container',
                   height:78,
                   width:232,
-                  html:'<img src="http://wme.lzu.edu.cn/MathPASS_YWC/images/logo.png"/>'
+                  html:'<img src="http://202.201.13.85/mathpass/images/logo.png"/>'
               },
               {
                   styleHtmlContent: true,

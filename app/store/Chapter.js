@@ -21,7 +21,7 @@ Ext.define('MathPASS.store.Chapter', {
             
             proxy:{
                 type:'rest',
-                url:'http://wme.lzu.edu.cn/MathPASS_YWC/fetchChapter.php',
+                url:'http://202.201.13.85/mathpass/fetchChapter.php',
                 reader:{
                     type:'json'
                 },

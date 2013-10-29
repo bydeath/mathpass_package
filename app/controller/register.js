@@ -53,7 +53,7 @@ btn_register_ontap:function(){
    var errors = register.validate();
    if(errors.isValid()&&flagemail&&flagepassword){
        Ext.Ajax.request({
-           url:'http://wme.lzu.edu.cn/MathPASS_YWC/users.php',
+           url:'http://202.201.13.85/mathpass/users.php',
            params:{
                email:emailValue,
                password:passwordValue,

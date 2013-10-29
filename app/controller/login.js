@@ -34,7 +34,7 @@ btn_login_ontap:function(){
             message:'Signing In...'
         });
         Ext.Ajax.request({
-            url:'http://wme.lzu.edu.cn/MathPASS_YWC/finduser.php',
+            url:'http://202.201.13.85/mathpass/finduser.php',
             params:{
                 email:emailValue,
                 password:passwordValue

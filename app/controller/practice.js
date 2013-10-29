@@ -56,7 +56,7 @@ button_takepractice_taped:function(){
             ptype+=","
      }
      ptype=ptype.substr(0,ptype.length-1);
-        var link="http://wme.lzu.edu.cn/MathPASS_YWC/takeAssignmentDo1.php?openmode=1&number=1&types="+ptype;
+        var link="http://202.201.13.85/mathpass/takeAssignmentDo1.php?openmode=1&number=1&types="+ptype;
 	    window.open(link,"assignment","location=no,menubar=no,toolbar=no,width=780,height=550,status=no,scrollbars=yes");
             this.getProblemdataview().deselectAll();
     }

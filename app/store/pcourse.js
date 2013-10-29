@@ -22,7 +22,7 @@ Ext.define('MathPASS.store.pcourse', {
             
             proxy:{
                 type:'rest',
-                url:'http://wme.lzu.edu.cn/MathPASS_YWC/fetchCourse.php',
+                url:'http://202.201.13.85/mathpass/fetchCourse.php',
                 reader:{
                     type:'json'
                 },

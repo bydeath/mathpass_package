@@ -24,7 +24,7 @@ Ext.define('MathPASS.store.Problem', {
            // ],
             proxy:{
                 type:'rest',
-                url:'http://wme.lzu.edu.cn/MathPASS_YWC/fetchProblem.php',
+                url:'http://202.201.13.85/mathpass/fetchProblem.php',
                 reader:{
                     type:'json'
                 },

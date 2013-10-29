@@ -41,7 +41,7 @@ Ext.define('MathPASS.controller.teacherpage',{
              userId = userInfoData.getAt(0).get('userId');
         }
         Ext.Ajax.request({
-            url:'http://wme.lzu.edu.cn/MathPASS_YWC/findcourses.php',
+            url:'http://202.201.13.85/mathpass/findcourses.php',
             params:{
                 userId:userId
             },
